@@ -1,12 +1,14 @@
 /* beodd 디자인 소싱 DB — service worker
    배포 갱신 시 아래 VERSION 을 올리면 설치된 기기의 캐시가 교체됩니다. */
-const VERSION = 'beodd-db-v2';
+const VERSION = 'beodd-db-v3';
 
 const CORE = [
   './',
   './index.html',
   './manifest.webmanifest',
   './PretendardVariable.woff2',
+  './beodd.otf',
+  './mark-96.png',
   './apple-touch-icon.png',
   './icon-192.png',
   './icon-512.png'
