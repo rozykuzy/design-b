@@ -1,6 +1,6 @@
 /* beodd 디자인 소싱 DB — service worker
    배포 갱신 시 아래 VERSION 을 올리면 설치된 기기의 캐시가 교체됩니다. */
-const VERSION = 'beodd-db-v7';
+const VERSION = 'beodd-db-v8';
 
 const CORE = [
   './',
